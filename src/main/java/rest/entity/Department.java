@@ -6,6 +6,8 @@ import java.util.List;
 @Entity
 @Table(name="department")
 public class Department {
+
+    //some changes
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     @Column
